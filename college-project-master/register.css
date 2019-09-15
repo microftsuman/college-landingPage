@@ -1,0 +1,128 @@
+* {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
+}
+
+.primary-color {
+    background: #1771c4;
+    color: #fff;
+}
+
+.secondary-color {
+    background: #1771c4;
+    color: #fff;
+}
+
+.main-text {
+    color: #1771c4;
+    font-size: 28px;
+}
+
+.page-logo {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo-box {
+    width: 200px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.logo-box h2 {
+    margin-top: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-wrapper {
+    width: 800px;
+    border-radius: 15px;
+}
+
+.content-box {
+    width: 98%;
+    margin: auto;
+}
+
+.content-box>div {
+    width: 100%;
+}
+
+.login-as {
+    height: 50px;
+    font-weight: normal;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.submit {
+    width: 200px;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid rgb(73, 72, 72)
+}
+
+.seeker {
+    margin-left: 5%;
+    margin-right: 3rem;
+}
+
+.employer {
+    margin-right: 4.93%;
+    color: #000;
+    outline: 1px solid #000;
+}
+
+.login-form {
+    width: 88%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.login-form .form-control {
+    box-shadow: none;
+}
+
+
+/* for devices smaller than 767px */
+
+@media screen and (max-width:767px) {
+    .login-form {
+        width: 100%;
+    }
+    .content-wrapper {
+        border: none!important;
+    }
+    .page-logo {
+        height: 65px;
+    }
+    .content-box {
+        flex-direction: column;
+    }
+    .login-as {
+        width: 90%;
+        margin: auto;
+    }
+    .employer {
+        margin-top: 20px;
+    }
+}
